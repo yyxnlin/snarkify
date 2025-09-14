@@ -1,0 +1,35 @@
+- !<AssetImportMetadata/a4a37e46-6c41-4c10-962f-6de64b820987>
+  ImporterRemoteVersion: ""
+  Group: {fileID: 0}
+  GenerateUuid: 1
+  GenerateUniqueName: 1
+  IsExternalAsset: 0
+  ExternalReference:
+    localIdentifier: 0
+    localType: 0
+    instance: {fileID: 0}
+  PrimaryAsset: {fileID: 0}
+  ImportSettings: !<ScriptAssetImportSettings/00000000-0000-0000-0000-000000000000>
+    {}
+- !<ScriptAsset/e3c8b5d1-4f98-4b26-8b5e-7d3a9f2e1c8a>
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: HeadAttached3DFactory
+  m_Name: HeadAttached3DFactory
+  typeScriptUuid: a4a37e46-6c41-4c10-962f-6de64b820987
+  exportsAsDefault: 0
+  enabled: 1
+  exportedTypeScriptClassName: HeadAttached3DFactory
+  sourceHash: 3492823984
+  _id: a4a37e46-6c41-4c10-962f-6de64b820987
+  serializationData:
+    typedDataList: []
+    referencedIds: []
+    HashCodeBytes: []
+    TypeHashCodeBytes: []
+    ExternalReferenceIds: []

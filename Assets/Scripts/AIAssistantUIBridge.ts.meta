@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/76b5f26a-9cca-4ac6-b885-b59c4f2bf5cb>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 3dd34f27-11d7-42a1-b4cf-8d9fb87d8a89
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 3dd34f27-11d7-42a1-b4cf-8d9fb87d8a89
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> df72bb66-1578-4378-a00d-cfc5c41b0a1f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/df72bb66-1578-4378-a00d-cfc5c41b0a1f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 998d2ddf-9667-433c-afd2-63f370330eef
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    geminiAssistant: false
+    snap3DInteractableFactory: false
+    sphereController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - geminiAssistant: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      sphereController: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      snap3DInteractableFactory: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"Auto-connects the Gemini AI Assistant to the Sphere Controller UI on startup"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Assistant"}'
+    - '// @ui {"widget":"label", "label":"Customize the voice and behavior of the Gemini assistant on its component."}'
+    - // @input AssignableType geminiAssistant
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"UI Elements"}'
+    - // @input AssignableType_1 sphereController
+    - // @input AssignableType_2 snap3DInteractableFactory
+    - '// @ui {"widget":"group_end"}'
